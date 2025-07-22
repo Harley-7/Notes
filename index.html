@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--JS-->
+    <script src="js/scripts.js" defer></script>
+    <!--Links dos icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+    
+    <header id="header-container">
+
+        <h1><i class="bi bi-pencil-fill"></i>Notes</h1>
+
+        <div id="search-notes">
+            <i class="bi bi-search"></i>
+            <input type="text" id="search-input" placeholder="busque por uma nota">
+        </div>
+
+        <button id="export-notes">
+            Exportar CSV
+            <i class="bi bi-download"></i>
+        </button>
+
+    </header>
+
+    <div id="notes-container">
+        
+        <!--
+            <div class ="note">
+    
+                <textarea id="content">Teste</textarea>
+                <i class="bi bi-pin fixed"></i>
+                <i class="bi bi-x-lg"></i>
+                <i class="bi bi-file-earmark-plus"></i>
+    
+            </div>
+        -->
+
+    </div>
+
+    <button id="add-btn">
+        <i class="bi bi-plus-lg"></i>
+    </button>
+
+    <div id="add-container" class="hide">
+        <h2>Adicione a sua nota</h2>
+
+        <button id="exit-btn">
+            <i class="bi bi-x-lg"></i>
+        </button>
+
+        <input type="text" id="note-input" placeholder="Digite sua nota">
+
+        <button id="add-note">Adicionar</button>
+    </div>
+
+</body>
+</html>
